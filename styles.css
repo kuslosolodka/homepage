@@ -194,47 +194,147 @@ body {
   padding-left: 20px;
 }
 
-.additional-info {
-    flex: 1 1 40%;
+.accordion {
+  background-color: rgb(244, 242, 236);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  font-size: 1rem;
 }
 
-.additional-info__education {
-    margin-bottom: 20px;
+.active,
+.accordion:hover {
+  background-color: rgb(220, 219, 219);
 }
 
-.additional-info__education-header {
-    color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
-.additional-info__education-university-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
+.accordion::after {
+  content: "\02795";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
 }
 
-.additional-info__education-university-speciality {
-    color: var(--primary-text-color);
-    text-align: left;
-    margin-bottom: 10px;
+.active::after {
+  content: "\2796";
 }
 
-.additional-info__education-university-name {
-    color: var(--secondary-text-color);
+.skills:not(:last-child) {
+  margin-bottom: 30px;
 }
 
-.additional-info__languages {
-    margin-bottom: 20px;
+.details {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-.additional-info__languages-header {
-    color: var(--secondary-text-color);
-    text-align: left;
-    margin-bottom: 20px;
+.bar {
+  border: 2px solid #0d96e0;
+  border-radius: 20px;
 }
 
-.additional-info__languages-item {
-    color: var(--secondary-text-color);
+.bar div {
+  width: 0;
+  height: 9px;
+  border-radius: 10px;
+  background-color: #0d96e0;
+}
+
+#html-bar {
+  animation: html-fill 2s forwards;
+}
+
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+
+#css-bar {
+  animation: css-fill 2s forwards;
+}
+
+@keyframes css-fill {
+  100% {
+    width: 75%;
+  }
+}
+
+#js-bar {
+  animation: js-fill 2s forwards;
+}
+
+@keyframes js-fill {
+  100% {
+    width: 50%;
+  }
+}
+
+#react-bar {
+  animation: react-fill 2s forwards;
+}
+
+@keyframes react-fill {
+  100% {
+    width: 40%;
+  }
+}
+
+.telegram-popup {
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+
+.telegram-popup .popupimg {
+  visibility: hidden;
+  color: #fff;
+  width: 200px;
+  height: 240px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+.telegram-popup .popupimg::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+}
+
+.telegram-popup .show {
+  visibility: visible;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
