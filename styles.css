@@ -109,10 +109,6 @@ body {
   border: 3px solid;
   border-color: var(--text-decoration-color);
 }
-.intro {
-  display: flex;
-  justify-content: start;
-}
 
 .intro__icon-wrapper {
   margin-right: 30px;
@@ -207,9 +203,6 @@ body {
   top: 0;
   margin-top: -10px;
   transform: translate(-50%, -100%);
-}
-  color: var(--secondary-text-color);
-  padding-left: 20px;
 }
 
 .traits {
