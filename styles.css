@@ -233,21 +233,15 @@ body {
   margin-left: 15px;
   margin-bottom: 25px;
 }
-
-.additional-info__education-university-name {
-  color: var(--secondary-text-color);
+.hobbies {
+  flex: 1 1 50%;
+  margin-right: 50px;
 }
-
-.additional-info__languages {
+.hobbies__header {
+  color: var(--secondary-text-color);
   margin-bottom: 20px;
 }
-
-.additional-info__languages-header {
+.hobbies__list {
   color: var(--secondary-text-color);
-  text-align: left;
-  margin-bottom: 20px;
-}
-
-.additional-info__languages-item {
-  color: var(--secondary-text-color);
+  padding-left: 20px;
 }
