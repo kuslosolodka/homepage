@@ -135,9 +135,9 @@ body {
   margin-bottom: 15px;
 }
 
-.intro_text {
+.intro__list {
   color: var(--secondary-text-color);
-  text-align: justify;
+  padding-left: 20px;
 }
 
 .skills__header {
