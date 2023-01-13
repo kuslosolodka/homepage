@@ -212,31 +212,26 @@ body {
   padding-left: 20px;
 }
 
-.additional-info {
-  flex: 1 1 40%;
+.traits {
+  flex: 1 1 50%;
+  margin-right: 50px;
 }
 
-.additional-info__education {
-  margin-bottom: 20px;
-}
-
-.additional-info__education-header {
+.traits__header {
   color: var(--secondary-text-color);
-  text-align: left;
   margin-bottom: 20px;
 }
-
-.additional-info__education-university-durability {
-  color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 15px;
+.traits__list {
+  color: var(--secondary-text-color);
+  padding-left: 20px;
 }
-
-.additional-info__education-university-speciality {
-  color: var(--primary-text-color);
-  text-align: left;
-  margin-bottom: 10px;
+.positive__traits {
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+.negative__traits {
+  margin-left: 15px;
+  margin-bottom: 25px;
 }
 
 .additional-info__education-university-name {
