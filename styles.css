@@ -129,6 +129,11 @@ body {
 .intro__icon path {
   fill: var(--text-decoration-color);
 }
+.intro__header {
+  color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 15px;
+}
 
 .intro_text {
   color: var(--secondary-text-color);
