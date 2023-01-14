@@ -184,7 +184,11 @@ body {
   position: relative;
   border-radius: 50%;
 }
-.timeline li:before {
+.timeline__item:hover {
+  background: var(--secondary-text-color);
+}
+
+.timeline__item:before {
   display: inline-block;
   content: attr(data-year);
   font-size: 26px;
