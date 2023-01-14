@@ -178,8 +178,8 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: #f2bb13;
-  text-align: center;
+  background: var(--text-decoration-color);
+  text-align: start;
   line-height: 1.2;
   position: relative;
   border-radius: 50%;
