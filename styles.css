@@ -202,13 +202,14 @@ body {
 .timeline__item:nth-child(even):before {
   bottom: -40px;
 }
-.timeline li:after {
+.timeline__item:after {
   display: inline-block;
   content: attr(data-text);
-  font-size: 16px;
+  font-size: 15px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  color: var(--secondary-text-color);
 }
 .timeline li:nth-child(odd):after {
   bottom: 0;
