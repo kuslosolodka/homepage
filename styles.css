@@ -242,11 +242,7 @@ body {
   margin-left: 15px;
   margin-bottom: 25px;
 }
-.hobbies {
-  flex: 1 1 50%;
-  margin-right: 50px;
-}
-.hobbies__header {
+.memes__header {
   color: var(--secondary-text-color);
   margin-bottom: 20px;
 }
