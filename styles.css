@@ -211,12 +211,12 @@ body {
   transform: translateX(-50%);
   color: var(--secondary-text-color);
 }
-.timeline li:nth-child(odd):after {
+.timeline__item:nth-child(odd):after {
   bottom: 0;
   margin-bottom: -10px;
   transform: translate(-50%, 100%);
 }
-.timeline li:nth-child(even):after {
+.timeline__item:nth-child(even):after {
   top: 0;
   margin-top: -10px;
   transform: translate(-50%, -100%);
