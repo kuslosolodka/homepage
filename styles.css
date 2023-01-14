@@ -191,7 +191,7 @@ body {
 .timeline__item:before {
   display: inline-block;
   content: attr(data-year);
-  font-size: 26px;
+  font-size: 20px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
