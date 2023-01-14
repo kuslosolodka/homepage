@@ -196,10 +196,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-.timeline li:nth-child(odd):before {
+.timeline__item:nth-child(odd):before {
   top: -40px;
 }
-.timeline li:nth-child(even):before {
+.timeline__item:nth-child(even):before {
   bottom: -40px;
 }
 .timeline li:after {
