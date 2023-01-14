@@ -221,7 +221,6 @@ body {
   margin-top: -10px;
   transform: translate(-50%, -100%);
 }
-
 .traits {
   flex: 1 1 50%;
   margin-right: 50px;
@@ -237,7 +236,7 @@ body {
 }
 .positive__traits {
   margin-left: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 .negative__traits {
   margin-left: 15px;
