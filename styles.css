@@ -247,12 +247,11 @@ body {
   margin-bottom: 20px;
   text-align: center;
 }
-.video__grid {
+.video__block {
   columns: 4;
   column-gap: 10px;
 }
-.grid-item .memes__video {
-  object-fit: cover;
+.video-item .memes__video {
   width: 100%;
 }
 .snow {
